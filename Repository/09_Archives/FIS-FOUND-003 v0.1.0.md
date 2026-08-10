@@ -4,7 +4,7 @@ Fitness Intelligence System (FIS)
 Document ID : FIS-FOUND-003
 Category    : Foundation
 Title       : Documentation Specification
-Version     : 0.2.0
+Version     : 0.1.0
 
 This document defines the official documentation standards for the
 Fitness Intelligence System (FIS). All permanent documents within the
@@ -18,27 +18,19 @@ title: Documentation Specification
 category: Foundation
 foundation_stage: Foundation
 
-version: 0.2.0
-repository_version: 0.2.0
+version: 0.1.0
+repository_version: 0.1.0
 
 authors:
   - Siddharth Sinha
 
 contributors:
-  - Aria (ChatGPT-System Architect)
+  - ChatGPT (System Architect)
 
 created: 2026-08-08
-updated: 2026-08-10
+updated: 2026-08-08
 
 copyright: © 2026 Siddharth Sinha. All rights reserved.
-
----
-
-# Changelog
-
-  - Purpose Updated
-  - YAML Rule updated
-  - Changelog Rule Added
 
 ---
 
@@ -52,7 +44,7 @@ This document defines the official documentation standards for the Fitness Intel
 
 Its purpose is to ensure that every document within the repository remains consistent, readable, maintainable, traceable, and suitable for both human understanding and AI interpretation.
 
-This specification applies to all permanent documentation contained within the FIS repository. Rules specified under this document MUST be followed for every document creation inside the Repository Folder.
+This specification applies to all permanent documentation contained within the FIS repository.
 
 ---
 
@@ -149,7 +141,7 @@ The comment header exists to provide:
 
 # YAML Metadata
 
-Every document MUST include YAML front matter and should always be in the top followed by Comment Header.
+Every document MUST include YAML front matter.
 
 The metadata MUST include:
 
@@ -163,11 +155,8 @@ The metadata MUST include:
 - `created`
 - `updated`
 - `copyright`
-- 'status' as a metadata MUST NOT be added. As every document will be added in the filing system only after being locked.
-- ChatGPT as a creditor should be follow this format: Aria (ChatGPT-System Architect)
 
 Additional metadata MAY be introduced where justified.
-
 
 ---
 
@@ -339,12 +328,6 @@ Every official document MUST comply with this specification.
 
 ---
 
-# Changelog Information
-
-Any changes made in the document MUST be added in the beginning of the document after YAML block
-
----
-
 # Closing Statement
 
 The purpose of this specification is not merely to standardize writing.
@@ -357,13 +340,13 @@ Its purpose is to preserve knowledge in a form that remains understandable, main
 
 **Version**
 
-0.2.0
+0.1.0
 
 **Approved By**
 
 - Siddharth Sinha
-- Aria (ChatGPT-System Architect)
+- ChatGPT (System Architect)
 
 **Approved On**
 
-2026-08-10
+2026-08-08

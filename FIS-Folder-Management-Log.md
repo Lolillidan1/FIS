@@ -39,7 +39,7 @@ Fitness Intelligence System/
 ├── Repository/                                      [Primary FIS documentation repository]
 │   │
 │   ├── 00_Foundations/                              [Foundational documents defining FIS principles, identity, and fundamental rules]
-│   │   ├── FIS-FOUND-001.md                         [Currently Empty]
+│   │   ├── FIS-FOUND-001.md                         
 │   │   └── FIS-FOUND-003.md
 │   │
 │   ├── 01_Definitions/                              [Definitions and controlled terminology used throughout FIS]
@@ -58,7 +58,7 @@ Fitness Intelligence System/
 │   │
 │   ├── 08_Resources/                                [Supporting resources used by FIS that do not belong to another defined repository category]
 │   │
-│   ├── 09_Archives/                                 [Historical files retained for traceability but no longer considered active]
+│   ├── 09_Archives/                                 [Historical files retained for traceability but no longer considered active][This section will not be updated for tracking]
 │   │
 │   └── 10_Validation/                               [Validation protocols and validation-related material]
 │       └── AI-Resource-Validation-Protocol.md

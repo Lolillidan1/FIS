@@ -2,15 +2,19 @@
 document_id: FIS-FOUND-001
 title: FIS System Foundation
 category: Foundation
-foundation_stage: Foundation
+
 version: 0.1.0
 repository_version: 0.1.0
+
 authors:
   - Siddharth Sinha
+
 contributors:
   - ChatGPT (System Architect)
+
 created: 2026-08-10
 updated: 2026-08-10
+
 copyright: © 2026 Siddharth Sinha. All rights reserved.
 ---
 

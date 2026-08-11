@@ -39,7 +39,8 @@ Fitness Intelligence System/
 ├── Repository/                                      [Primary FIS documentation repository]
 │   │
 │   ├── 00_Foundations/                              [Foundational documents defining FIS principles, identity, and fundamental rules]
-│   │   ├── FIS-FOUND-001.md                         
+│   │   ├── FIS-FOUND-001.md  
+│   │   ├── FIS_FOUND-002.md                    
 │   │   └── FIS-FOUND-003.md
 │   │
 │   ├── 01_Definitions/                              [Definitions and controlled terminology used throughout FIS]
@@ -47,7 +48,8 @@ Fitness Intelligence System/
 │   ├── 02_Specifications/                           [Formal specifications defining FIS systems, components, processes, or behaviours]
 │   │
 │   ├── 03_Templates/                                [Reusable templates for creating standardized FIS documents and records]
-│   │
+│   │   └── FIS-TPL-ROLE-INIT
+│   │   
 │   ├── 04_Data-Library/                             [Structured datasets and reference libraries providing reusable information for FIS analysis, interpretation, and planning]
 │   │
 │   ├── 05_Analysis/                                 [Analytical work, analytical outputs, and derived interpretations]

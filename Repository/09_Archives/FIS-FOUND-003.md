@@ -2,9 +2,10 @@
 document_id: FIS-FOUND-003
 title: Documentation Specification
 category: Foundation
+foundation_stage: Foundation
 
-version: 0.2.2
-repository_version: 0.2.2
+version: 0.2.1
+repository_version: 0.2.1
 
 authors:
   - Siddharth Sinha
@@ -24,7 +25,7 @@ Fitness Intelligence System (FIS)
 Document ID : FIS-FOUND-003
 Category    : Foundation
 Title       : Documentation Specification
-Version     : 0.2.2
+Version     : 0.2.1
 
 This document defines the official documentation standards for the
 Fitness Intelligence System (FIS). All permanent documents within the
@@ -34,10 +35,6 @@ repository MUST comply with this specification.
 ---
 
 # Changelog
-  - v0.2.2
-    - Worker Marker Rule added
-    - YAML Format Fix
-    - Localization Bug Fixes
   - v0.2.1
     - Comment Block Moved Down
   - v0.2.0
@@ -168,12 +165,10 @@ The metadata MUST include:
 - `created`
 - `updated`
 - `copyright`
-- `Worker Marker` [If valid]
 - `status` as a metadata MUST NOT be added. As every document will be added in the filing system only after being locked.
 - ChatGPT as a creditor should be follow this format: Aria (ChatGPT-System Architect)
 
 Additional metadata MAY be introduced where justified.
-And always follow the YAML indexing as specified in the list. For reference look up the YAML of this document.
 
 
 ---
@@ -364,7 +359,7 @@ Its purpose is to preserve knowledge in a form that remains understandable, main
 
 **Version**
 
-0.2.2
+0.2.1
 
 **Approved By**
 

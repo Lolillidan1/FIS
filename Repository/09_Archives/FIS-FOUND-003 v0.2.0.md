@@ -1,31 +1,10 @@
----
-document_id: FIS-FOUND-003
-title: Documentation Specification
-category: Foundation
-foundation_stage: Foundation
-
-version: 0.2.1
-repository_version: 0.2.1
-
-authors:
-  - Siddharth Sinha
-
-contributors:
-  - Aria (ChatGPT-System Architect)
-
-created: 2026-08-08
-updated: 2026-08-11
-
-copyright: © 2026 Siddharth Sinha. All rights reserved.
----
-
 <!--
 Fitness Intelligence System (FIS)
 
 Document ID : FIS-FOUND-003
 Category    : Foundation
 Title       : Documentation Specification
-Version     : 0.2.1
+Version     : 0.2.0
 
 This document defines the official documentation standards for the
 Fitness Intelligence System (FIS). All permanent documents within the
@@ -34,13 +13,32 @@ repository MUST comply with this specification.
 
 ---
 
+document_id: FIS-FOUND-003
+title: Documentation Specification
+category: Foundation
+foundation_stage: Foundation
+
+version: 0.2.0
+repository_version: 0.2.0
+
+authors:
+  - Siddharth Sinha
+
+contributors:
+  - Aria (ChatGPT-System Architect)
+
+created: 2026-08-08
+updated: 2026-08-10
+
+copyright: © 2026 Siddharth Sinha. All rights reserved.
+
+---
+
 # Changelog
-  - v0.2.1
-    - Comment Block Moved Down
-  - v0.2.0
-    - Purpose Updated
-    - YAML Rule updated
-    - Changelog Rule Added
+
+  - Purpose Updated
+  - YAML Rule updated
+  - Changelog Rule Added
 
 ---
 
@@ -127,8 +125,8 @@ Markdown extensions SHOULD be avoided unless officially adopted by FIS.
 
 Every official document MUST follow this structure:
 
-1. YAML Metadata
-2. Comment Header
+1. Comment Header
+2. YAML Metadata
 3. Document Title
 4. Document Body
 5. Document Information
@@ -359,7 +357,7 @@ Its purpose is to preserve knowledge in a form that remains understandable, main
 
 **Version**
 
-0.2.1
+0.2.0
 
 **Approved By**
 
@@ -368,4 +366,4 @@ Its purpose is to preserve knowledge in a form that remains understandable, main
 
 **Approved On**
 
-2026-08-11
+2026-08-10

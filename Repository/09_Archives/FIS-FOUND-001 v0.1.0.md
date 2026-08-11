@@ -1,20 +1,21 @@
 ---
-
 document_id: FIS-FOUND-001
 title: FIS System Foundation
 category: Foundation
-scope: universal
-workers: none
-dependency: none
-version: 0.2.0
-created: 2026-08-10
-updated: 2026-08-11
+
+version: 0.1.0
+repository_version: 0.1.0
+
 authors:
+  - Siddharth Sinha
 
-* Siddharth Sinha
-* Aria (ChatGPT-System Architect)
-  copyright: © 2026 Siddharth Sinha. All rights reserved.
+contributors:
+  - ChatGPT (System Architect)
 
+created: 2026-08-10
+updated: 2026-08-10
+
+copyright: © 2026 Siddharth Sinha. All rights reserved.
 ---
 
 # FIS-FOUND-001 — FIS System Foundation
@@ -25,20 +26,20 @@ The purpose of this document is to establish the foundational understanding of t
 
 This document exists so that any person, AI system, worker, thread, or other component entering the FIS project can understand:
 
-* what is being built;
-* why it is being built;
-* what problem it exists to solve;
-* how the separate parts of the fitness ecosystem become one coherent system through FIS;
-* how knowledge is accumulated and preserved;
-* how independent intelligence workers contribute to the same system;
-* how resources, files, Notion, the repository, Git, and conversations participate in FIS continuity;
-* and how FIS can progressively develop greater understanding over time.
+- what is being built;
+- why it is being built;
+- what problem it exists to solve;
+- how the separate parts of the fitness ecosystem become one coherent system through FIS;
+- how knowledge is accumulated and preserved;
+- how independent intelligence workers contribute to the same system;
+- how resources, files, Notion, the repository, Git, and conversations participate in FIS continuity;
+- and how FIS can progressively develop greater understanding over time.
 
 This document is therefore a **system-orientation foundation**.
 
 It does not define the complete technical architecture of FIS, controlled terminology, detailed mathematical models, individual worker permissions, resource authority rules, or implementation specifications.
 
-Those subjects belong to later Foundation, Definition, and Specification documents, including specialized foundations such as `FIS-FOUND-002 — FIS Intelligence Worker & Role Framework` where applicable.
+Those subjects belong to later Foundation, Definition, and Specification documents.
 
 The purpose of this document is to establish the conceptual whole that those later documents will describe in greater detail.
 
@@ -114,15 +115,15 @@ However, the more important questions often exist **between those domains**.
 
 For example, understanding a change in training performance may require consideration of:
 
-* recent training;
-* accumulated workload;
-* sleep;
-* nutrition;
-* recovery;
-* stress;
-* previous responses;
-* current physical state;
-* and longer-term adaptation.
+- recent training;
+- accumulated workload;
+- sleep;
+- nutrition;
+- recovery;
+- stress;
+- previous responses;
+- current physical state;
+- and longer-term adaptation.
 
 No single specialized application necessarily possesses the complete context.
 
@@ -156,14 +157,14 @@ FIS is therefore fundamentally concerned with relationships.
 
 A measurement matters not only because of its value, but because of what it means in relation to:
 
-* other observations;
-* previous observations;
-* current state;
-* historical state;
-* circumstances;
-* interventions;
-* outcomes;
-* and established knowledge.
+- other observations;
+- previous observations;
+- current state;
+- historical state;
+- circumstances;
+- interventions;
+- outcomes;
+- and established knowledge.
 
 ---
 
@@ -173,21 +174,21 @@ FIS is a **persistent, evolving fitness intelligence system** constructed around
 
 It is composed conceptually of several interconnected elements, including:
 
-* information and observations;
-* persistent knowledge;
-* historical records;
-* individual state;
-* relationships between information;
-* analytical methods;
-* learned patterns;
-* models;
-* rules;
-* goals;
-* decisions;
-* outcomes;
-* feedback;
-* resources;
-* and intelligence capable of reasoning over these elements.
+- information and observations;
+- persistent knowledge;
+- historical records;
+- individual state;
+- relationships between information;
+- analytical methods;
+- learned patterns;
+- models;
+- rules;
+- goals;
+- decisions;
+- outcomes;
+- feedback;
+- resources;
+- and intelligence capable of reasoning over these elements.
 
 These elements do not exist as unrelated components.
 
@@ -254,6 +255,7 @@ Specialized Systems
         │ Knowledge        │
         │ State            │
         │ Patterns         │
+        │ Models           │
         │ Intelligence     │
         └────────┬─────────┘
                  │
@@ -381,22 +383,22 @@ Its persistent knowledge environment can span several forms of storage and organ
 
 These include, as appropriate:
 
-* the formal Git repository;
-* official FIS documents;
-* Project Resources;
-* Notion;
-* Mac files and directories;
-* datasets;
-* spreadsheets;
-* exported application data;
-* analytical outputs;
-* experiments;
-* models;
-* and conversations used during active development.
+- the formal Git repository;
+- official FIS documents;
+- Project Resources;
+- Notion;
+- Mac files and directories;
+- datasets;
+- spreadsheets;
+- exported application data;
+- analytical outputs;
+- experiments;
+- models;
+- and conversations used during active development.
 
 These environments do not necessarily have identical purposes.
 
-Their importance comes from their ability to collectively preserve the information required by FIS.
+Their importance comes from their ability to collectively preserve the information required for the continued development and operation of FIS.
 
 ---
 
@@ -408,17 +410,17 @@ It provides a persistent structure through which knowledge can be located, disti
 
 The repository separates areas such as:
 
-* Foundations;
-* Definitions;
-* Specifications;
-* Templates;
-* Data Library;
-* Analysis;
-* Research;
-* Experiments;
-* Resources;
-* Archives;
-* and Validation.
+- Foundations;
+- Definitions;
+- Specifications;
+- Templates;
+- Data Library;
+- Analysis;
+- Research;
+- Experiments;
+- Resources;
+- Archives;
+- and Validation.
 
 This structure exists to prevent all knowledge from becoming one undifferentiated collection of files.
 
@@ -462,6 +464,8 @@ and decision-making
 These should not be treated as interchangeable.
 
 Their importance comes from their ability to collectively preserve and organize the knowledge required by FIS.
+
+The exact authority, synchronization, promotion, archival, and conflict rules belong to later specifications.
 
 The foundational principle is that **FIS knowledge is distributed across an organized knowledge environment rather than trapped inside one interface.**
 
@@ -547,13 +551,13 @@ Self-learning must not mean that every discovered correlation becomes permanent 
 
 FIS must conceptually distinguish between:
 
-* observation;
-* correlation;
-* hypothesis;
-* pattern;
-* prediction;
-* validated finding;
-* and established knowledge.
+- observation;
+- correlation;
+- hypothesis;
+- pattern;
+- prediction;
+- validated finding;
+- and established knowledge.
 
 The confidence and status of a piece of knowledge should depend upon the evidence supporting it.
 
@@ -591,12 +595,12 @@ Updated Understanding
 
 This allows the system to progressively understand not only what tends to happen, but also:
 
-* what predictions were accurate;
-* what predictions were inaccurate;
-* which interventions worked;
-* which interventions did not work;
-* under what circumstances an approach succeeded;
-* and how the individual's response differs from previous expectations.
+- what predictions were accurate;
+- what predictions were inaccurate;
+- which interventions worked;
+- which interventions did not work;
+- under what circumstances an approach succeeded;
+- and how the individual's response differs from previous expectations.
 
 This creates the possibility of a continuously improving system.
 
@@ -610,17 +614,17 @@ The most important form of growth is **growth of knowledge and understanding**.
 
 FIS can grow through:
 
-* additional observations;
-* longer history;
-* new relationships;
-* newly recognized patterns;
-* validated findings;
-* improved models;
-* better representations;
-* new data sources;
-* new analytical capabilities;
-* improved understanding of the individual;
-* and accumulated experience from previous decisions and outcomes.
+- additional observations;
+- longer history;
+- new relationships;
+- newly recognized patterns;
+- validated findings;
+- improved models;
+- better representations;
+- new data sources;
+- new analytical capabilities;
+- improved understanding of the individual;
+- and accumulated experience from previous decisions and outcomes.
 
 The system should therefore become progressively richer without requiring its entire conceptual foundation to be rebuilt each time new information becomes available.
 
@@ -634,23 +638,23 @@ There are two related forms of growth.
 
 FIS progressively learns:
 
-* what happens to the individual;
-* how the individual responds;
-* which relationships repeatedly occur;
-* what interventions produce useful outcomes;
-* and how the individual's state changes over time.
+- what happens to the individual;
+- how the individual responds;
+- which relationships repeatedly occur;
+- what interventions produce useful outcomes;
+- and how the individual's state changes over time.
 
 ### Improving the system
 
 FIS development can also reveal:
 
-* missing data;
-* inadequate representations;
-* weak models;
-* missing relationships;
-* insufficient resources;
-* better methods of organizing knowledge;
-* and architectural improvements.
+- missing data;
+- inadequate representations;
+- weak models;
+- missing relationships;
+- insufficient resources;
+- better methods of organizing knowledge;
+- and architectural improvements.
 
 The first concerns **fitness intelligence**.
 
@@ -692,12 +696,12 @@ An AI worker operating inside FIS is not itself the entirety of FIS.
 
 Likewise:
 
-* one conversation is not FIS;
-* one model is not FIS;
-* one worker is not FIS;
-* one resource is not FIS;
-* one database is not FIS;
-* one application is not FIS.
+- one conversation is not FIS;
+- one model is not FIS;
+- one worker is not FIS;
+- one resource is not FIS;
+- one database is not FIS;
+- one application is not FIS.
 
 Each is a component, interface, source, worker, or environment contributing to the larger system.
 
@@ -713,14 +717,14 @@ A new AI worker entering FIS should not need to reconstruct the entire project f
 
 The foundational documentation should provide the worker with the conceptual context necessary to understand:
 
-* what FIS is;
-* why FIS exists;
-* what the surrounding ecosystem represents;
-* how specialized systems relate to FIS;
-* how persistent knowledge contributes to continuity;
-* why the repository and resources matter;
-* how individual work contributes to the larger system;
-* and why FIS must be understood as one system rather than a collection of independent tasks.
+- what FIS is;
+- why FIS exists;
+- what the surrounding ecosystem represents;
+- how specialized systems relate to FIS;
+- how persistent knowledge contributes to continuity;
+- why the repository and resources matter;
+- how individual work contributes to the larger system;
+- and why FIS must be understood as one system rather than a collection of independent tasks.
 
 The worker may then consult more specialized resources according to its assigned work.
 
@@ -734,16 +738,16 @@ FIS development will necessarily be divided into tasks.
 
 A task may concern:
 
-* architecture;
-* definitions;
-* documentation;
-* resources;
-* data;
-* exercise knowledge;
-* models;
-* validation;
-* automation;
-* or intelligence.
+- architecture;
+- definitions;
+- documentation;
+- resources;
+- data;
+- exercise knowledge;
+- models;
+- validation;
+- automation;
+- or intelligence.
 
 Each task has a local purpose.
 
@@ -811,13 +815,13 @@ Conversation remains extremely important.
 
 It is where:
 
-* ideas are explored;
-* hypotheses are developed;
-* problems are reasoned through;
-* decisions are discussed;
-* documents are created;
-* experiments are designed;
-* and new understanding emerges.
+- ideas are explored;
+- hypotheses are developed;
+- problems are reasoned through;
+- decisions are discussed;
+- documents are created;
+- experiments are designed;
+- and new understanding emerges.
 
 But conversation should not be the final storage location for knowledge that FIS needs to retain.
 
@@ -934,12 +938,12 @@ FIS can be conceptually complete while its knowledge environment remains distrib
 
 What matters is that the relevant components can be:
 
-* identified;
-* accessed when required;
-* related appropriately;
-* interpreted within context;
-* preserved according to their purpose;
-* and incorporated into the larger system.
+- identified;
+- accessed when required;
+- related appropriately;
+- interpreted within context;
+- preserved according to their purpose;
+- and incorporated into the larger system.
 
 The architecture required to achieve this will be defined separately.
 
@@ -967,13 +971,13 @@ Likewise, a future capability described elsewhere does not automatically imply t
 
 FIS must therefore preserve a distinction between:
 
-* established knowledge;
-* approved principles;
-* planned capabilities;
-* hypotheses;
-* experiments;
-* unresolved questions;
-* and future implementation.
+- established knowledge;
+- approved principles;
+- planned capabilities;
+- hypotheses;
+- experiments;
+- unresolved questions;
+- and future implementation.
 
 This allows the system to grow without confusing aspiration with implementation.
 
@@ -986,8 +990,6 @@ Foundation documents establish the conceptual and governing basis from which lat
 This document establishes the **complete conceptual identity and system context** of FIS.
 
 Other Foundation documents may establish specific foundational domains.
-
-For example, `FIS-FOUND-002 — FIS Intelligence Worker & Role Framework` establishes the foundational architecture governing FIS workers, roles, operating stages, context boundaries, resource dependency, initialization, and worker relationships.
 
 Definitions will establish controlled meanings.
 
@@ -1005,22 +1007,22 @@ The documents that follow provide increasing precision.
 
 This document does not establish the final:
 
-* technical architecture;
-* database architecture;
-* data schema;
-* exercise entity structure;
-* mathematical models;
-* stimulus calculations;
-* fatigue calculations;
-* recovery calculations;
-* nutrition calculations;
-* resource authority hierarchy;
-* synchronization protocol;
-* complete worker permissions;
-* complete thread architecture;
-* API integrations;
-* automation implementation;
-* or detailed prediction mechanisms.
+- technical architecture;
+- database architecture;
+- data schema;
+- exercise entity structure;
+- mathematical models;
+- stimulus calculations;
+- fatigue calculations;
+- recovery calculations;
+- nutrition calculations;
+- resource authority hierarchy;
+- synchronization protocol;
+- worker permissions;
+- thread architecture;
+- API integrations;
+- automation implementation;
+- or detailed prediction mechanisms.
 
 Those subjects require dedicated development and formal specifications.
 
@@ -1222,32 +1224,24 @@ The purpose of this document is therefore to provide a stable answer to the ques
 
 ---
 
-## Changelog
+# Document Information
 
-### v0.2.0
+**Document ID:** `FIS-FOUND-001`
 
-* Updated the document to comply with `FIS-FOUND-003 v0.3.0`.
-* Replaced the previous metadata structure with the current canonical YAML metadata structure.
-* Removed the obsolete `repository_version` field.
-* Removed the obsolete `contributors` field and established shared `authors`.
-* Added the required `scope`, `workers`, and `dependency` metadata.
-* Moved document identity information into the authoritative YAML metadata layer.
-* Removed the previous secondary `Document Information` metadata section.
-* Added the required Changelog at the end of the document.
-* Updated the `updated` date to reflect finalization of this version.
-* Clarified the relationship between this foundation and `FIS-FOUND-002`.
-* Clarified that complete worker and thread architecture remains subject to the applicable specialized foundation and later specifications.
-* Preserved the original conceptual purpose, continuity model, and foundational system principles of `FIS-FOUND-001`.
+**Title:** `FIS System Foundation`
 
-### v0.1.0
+**Category:** Foundation
 
-* Initial establishment of the FIS System Foundation.
-* Defined the conceptual identity and purpose of FIS.
-* Established the individual as the centre of FIS.
-* Established FIS as a connecting intelligence layer rather than merely an aggregator.
-* Established persistent knowledge and continuity as foundational principles.
-* Established the relationship between external systems, FIS, knowledge, intelligence, decisions, outcomes, and learning.
-* Established model independence as a continuity principle.
-* Established distributed intelligence and shared system identity across AI workers.
-* Established the distinction between temporary conversational reasoning and persistent FIS knowledge.
-* Established the conceptual boundary between foundational system identity and later technical architecture.
+**Version:** `0.1.0`
+
+**Created:** 2026-08-10
+
+**Updated:** 2026-08-10
+
+**Author:** Siddharth Sinha
+
+**Contributor:** ChatGPT (System Architect)
+
+**Related Foundation Document:** `FIS-FOUND-003 — Documentation Specification`
+
+**Related Anchor:** `FIS Vision.md`

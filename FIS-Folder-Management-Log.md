@@ -34,14 +34,17 @@ Fitness Intelligence System/
 │
 ├── README.md
 ├── FIS Vision.md
-├── FIS-Folder-Management-Log.md
+├── FIS-Folder-Management-Log.md                     [This File]
+├── .gitignore
 │
 ├── Repository/                                      [Primary FIS documentation repository]
 │   │
 │   ├── 00_Foundations/                              [Foundational documents defining FIS principles, identity, and fundamental rules]
 │   │   ├── FIS-FOUND-001.md  
-│   │   ├── FIS_FOUND-002.md                    
-│   │   └── FIS-FOUND-003.md
+│   │   ├── FIS_FOUND-002.md    
+│   │   ├── FIS_FOUND-003.md      
+│   │   ├── FIS_FOUND-004.md              
+│   │   └── FIS-FOUND-005.md
 │   │
 │   ├── 01_Definitions/                              [Definitions and controlled terminology used throughout FIS]
 │   │
@@ -55,6 +58,7 @@ Fitness Intelligence System/
 │   ├── 05_Analysis/                                 [Analytical work, analytical outputs, and derived interpretations]
 │   │
 │   ├── 06_Research/                                 [Research material, findings, and research-derived documentation]
+│   │   └── Fitness Intelligence System Standards.md
 │   │
 │   ├── 07_Experiments/                              [Controlled experiments, trials, and experimental system work]
 │   │

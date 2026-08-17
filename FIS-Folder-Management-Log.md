@@ -43,8 +43,9 @@ Fitness Intelligence System/
 │   │   ├── FIS-FOUND-001.md  
 │   │   ├── FIS_FOUND-002.md    
 │   │   ├── FIS_FOUND-003.md      
-│   │   ├── FIS_FOUND-004.md              
-│   │   └── FIS-FOUND-005.md
+│   │   ├── FIS_FOUND-004.md  
+│   │   ├── FIS_FOUND-005.md              
+│   │   └── FIS-FOUND-007.md
 │   │
 │   ├── 01_Definitions/                              [Definitions and controlled terminology used throughout FIS]
 │   │
